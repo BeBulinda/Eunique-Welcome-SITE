@@ -1,51 +1,5 @@
 <section class="contact_details sec-padd2">
     <div class="container">
-        <div class="tabs-outer">
-            <!--Tabs Box-->
-            <div class="tabs-box tabs-style-one">
-                <!--Tab Buttons-->
-                <ul class="tab-buttons clearfix">
-                    <li data-tab="#tab-one" class="tab-btn">Kampala, Uganda</li>
-                    <li data-tab="#tab-two" class="tab-btn active-btn">Nairobi,Kenya</li>
-                    <li data-tab="#tab-three" class="tab-btn">Eldoret,Kenya</li>
-                    <li data-tab="#tab-four" class="tab-btn">Kisumu,Kenya</li>
-                </ul>
-            
-                <!--Tabs Content-->
-                <div class="tabs-content">
-                    <!--Tab / Active Tab-->
-                    <div class="tab" id="tab-one" style="display: none;">
-                        <div class="text-content">
-                            <div class="text"><p>We recently helped a small business grow from break-even 
-                                    to over UGX 100m profit in less than 2 years. 
-                                    Please find below contact details <br>and contact us today! 
-                                    Our experts always ready to help you.</p></div>
-                        </div>
-                    </div>
-                    
-                    <!--Tab-->
-                    <div class="tab active-tab" id="tab-two" style="display: block;">
-                        <div class="text-content">
-                             <div class="text"><p>Did some consultancy for a start-up in Staqpesa 
-                                     implementation and are recently forging towards realizing profits for 
-                                     the first year of implementationn .Please find below contact details and contact us today! Our experts always ready to help you.</p></div>                         
-                        </div>
-                    </div>
-                    
-                    <!--Tab-->
-                    <div class="tab" id="tab-three" style="display: none;">
-                        <div class="text"><p>Customisation and implementation for a firm that has seen proper financial management. Please find below contact details <br>and contact us today! Our experts always ready to help you.</p></div>
-                    </div>
-                    <!--Tab-->
-                    <div class="tab" id="tab-four" style="display: none;">
-                        <div class="text"><p>Recently assisted a small business in Staqpesa implementation thus profit realization. Please find below contact details <br>and contact us today! Our experts always ready to help you. </p></div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="item center">
@@ -54,8 +8,8 @@
                     </div>
                     <h4>Visit Our Place</h4>
                     <div class="text">
-                        <p>Rentford Building,Flr.1 Suite 4,<br>35 Muindi Mbingu St.,Nairobi, Kenya</p>
-                    </div>
+                        <p>Blue Building, Flr.2 Suite 58,Mwiki<br>Nairobi, Kenya</p>
+                   </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
@@ -76,7 +30,7 @@
                     </div>
                     <h4>Quick Contact</h4>
                     <div class="text">
-                        <p>Ph:(+254) 736 249665 <br>Email: hello@reflexconcepts.co.ke</p>
+                        <p>Ph:((+254) 723 209072 <br>Email: euniquecapital@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -91,7 +45,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="section-title">
-                    <h3>Send Your Message Us</h3>
+                    <h3>Send Us Your Message </h3>
                 </div>
                 <div class="default-form-area">
                     <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
@@ -133,9 +87,10 @@
                     </form>
                 </div>
             </div>
-<!--            <section id="contact-google-map">
+<!--            <section id="google-map-area">
                     <div 
-                        class="google-map-home" 
+                        class="google-map-home"
+                        id="google-map"
                         data-map-lat="-1.280668" 
                         data-map-lng="36.818318" 
                         data-icon-path="images/logo/map-marker.png"
@@ -147,7 +102,9 @@
                 </section>-->
             <div class="col-md-6 col-sm-8 col-xs-12">
                 <div class="home-google-map">
-                    <div 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8212839832954!2d36.81608671433515!3d-1.2809306359806194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d36b5ab1d1%3A0xbee2b3bfcd563ed8!2sRent+Ford+House!5e0!3m2!1ssw!2ske!4v1493639281978" 
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--                    <div 
                         class="google-map" 
                         id="contact-google-map" 
                         data-map-lat="-1.280668" 
@@ -156,11 +113,15 @@
                         data-map-title="Staqpesa"
                         data-map-zoom="11">
 
-                    </div>
-
+                    </div>-->
+                                                
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
 
+         <?php
+          require_once("require/call_for_action.php");
+         ?>

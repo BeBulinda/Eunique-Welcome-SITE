@@ -3,9 +3,9 @@
 require "Database.php";
 
 Database::setUp(array(
-	'dsn' => 'mysql:host=localhost;dbname=staqpesa;',
+	'dsn' => 'mysql:host=localhost;dbname=eunique_site;',
 	'username' => 'root',
-	'password' => 'sogoni1608'
+	'password' => ''
     ));
 
                             
